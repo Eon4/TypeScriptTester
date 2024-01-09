@@ -1,7 +1,8 @@
 "use strict";
-// //Unons and uniions literal practice
+// //Unions and unions literal practice
 // Funktion der udfører en udregning baseret på operationstype
 function calculate(num1, num2, operation) {
+    // Switch for at vælge den passende udregning baseret på operationstypen
     switch (operation) {
         case "add":
             return num1 + num2;
