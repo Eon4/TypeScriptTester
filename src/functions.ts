@@ -21,7 +21,7 @@ function getElementAtIndex(inputArray: any[], index: number): any {
 }
 
 // Eksempeldata for at teste funktionen til at hente et specifikt element i et array
-let arrayToSearch = ["apple", "banana", "cherry", "date"];
+let arrayToSearch = ["apple", "banana", "cherry", "melon"];
 let indexToRetrieve = 2;
 let elementAtIndex = getElementAtIndex(arrayToSearch, indexToRetrieve);
 console.log(`Elementet på index ${indexToRetrieve} er: ${elementAtIndex}`);
